@@ -1,4 +1,4 @@
-# 20200704
+## 20200704
 # Styled-Components Practice
 
 This repo will be used to try out the functions of the node package Styled-Components.
