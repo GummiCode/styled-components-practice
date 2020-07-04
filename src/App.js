@@ -15,12 +15,16 @@ function App() {
     }
   }
 
+  const toggleText = theme === 'light' ? 'Light' : 'Dark';
+
+
+
   return (
     <ThemeProvider theme={theme === 'light' ? lightMode : darkMode}>
       <>
         <GlobalStyles />
         <button onClick={toggleTheme}>Toggle mode</button>
-        <h1>Light mode</h1>
+        <h1>{toggleText} mode</h1>
         <footer>          
         </footer>
       </>
